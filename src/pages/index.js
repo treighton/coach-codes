@@ -8,13 +8,43 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="jumbo">
+      <h1>Hi there!</h1>
+      <p>
+        Hi! I'm Treighton Mauldin, but here I go by Coach Codes. I am a full
+        stack developer, coding bootcamp instructor, aspiring aspiring personal
+        trainer in Sacrmento, Ca.
+      </p>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div className="container">
+      <h2>Why am i here?</h2>
+      <h3>
+        <em>To help...</em>
+      </h3>
+      <p>
+        One of the main reasons i am here is to help those seeking to change
+        careers into web development, to help people in the development world
+        get and stay helathy and fit, and to help people in the fitness industry
+        learn more about how they can leverage technology to better reach and
+        serve their clients.
+      </p>
+      <h3>
+        <em>To Share...</em>
+      </h3>
+      <p>
+        Toward the middle of the first year of my thirties I began to realize
+        that my lifestyle was catching up with me. I was overweight, out of
+        shape, stressed out, and depressed. I tried to escape all of those
+        issues by drinking them away, which of course didnt work very well...and
+        culminated in a wake up call in the form of an emergency room trip that
+        i dont remember but have the scars and a crooked nose to never let me
+        forget. After that night I completely refactored my life, and have since
+        been on a constant journey of self imporvement, and I'd love to share
+        what I have learned with you!
+      </p>
+
+      <p>Now go build something great.</p>
+    </div>
   </Layout>
 )
 
