@@ -19,10 +19,11 @@ const IndexPage = () => (
             <p>
               Hi! I'm Treighton Mauldin. I am a developer, teacher, writer, aspiring aspiring personal trainer, and amatuer photographer in Sacrmento, Ca.
             </p>
+            <p>Let's digital!</p>
           </div>
         </div>
       </div>
-      <div className="container">
+      {/* <div className="container">
       <h2>Why am i here?</h2>
       <h3>
         <em>To help...</em>
@@ -49,9 +50,7 @@ const IndexPage = () => (
         what I have learned with you throught what I am calling the "State of
         the Tr8"
       </p>
-
-      <p>Now go build something great.</p>
-      </div>
+      </div> */}
     </div>
   </Layout>
 )
