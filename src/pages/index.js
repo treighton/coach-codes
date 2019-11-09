@@ -9,14 +9,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="jumbo">
-      <h1>Hi there!</h1>
-      <p>
-        Hi! I'm Treighton Mauldin, but here I go by Coach Codes. I am a full
-        stack developer, coding bootcamp instructor, aspiring aspiring personal
-        trainer in Sacrmento, Ca.
-      </p>
-    </div>
-    <div className="container">
+      <div className="container">
+        <div className="row">
+          <div className="col-qtr">
+            <Image />
+          </div>
+          <div className="col">
+            <h1>Hi there!</h1>
+            <p>
+              Hi! I'm Treighton Mauldin. I am a developer, teacher, writer, aspiring aspiring personal trainer, and amatuer photographer in Sacrmento, Ca.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container">
       <h2>Why am i here?</h2>
       <h3>
         <em>To help...</em>
@@ -45,6 +51,7 @@ const IndexPage = () => (
       </p>
 
       <p>Now go build something great.</p>
+      </div>
     </div>
   </Layout>
 )

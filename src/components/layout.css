@@ -624,12 +624,29 @@ pre tt:after {
 
 /* CUSTOM */
 .jumbo {
-  background-color: #111f51;
-  color: #ffffff;
   padding: 1.45rem 1.0875rem;
+  width: 100%;
 }
 
 .container {
   margin: 4rem auto;
-  width: 57ch;
+  max-width: 960px;
+  padding: 1.45rem -1.0875rem,
 }
+
+.row{
+  display: flex;
+}
+
+.col {
+  padding: 0 1rem;
+  flex: 1;
+}
+
+.col-qtr {
+  padding: 0 .2rem;
+  flex: .25;
+}
+
+
+
