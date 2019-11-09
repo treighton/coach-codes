@@ -40,7 +40,8 @@ const IndexPage = () => (
         i dont remember but have the scars and a crooked nose to never let me
         forget. After that night I completely refactored my life, and have since
         been on a constant journey of self imporvement, and I'd love to share
-        what I have learned with you!
+        what I have learned with you throught what I am calling the "State of
+        the Tr8"
       </p>
 
       <p>Now go build something great.</p>
